@@ -8,8 +8,11 @@ cd event-management-react
 Start the Frontend
 
 cd form
+
 npm install
+
 npm start
+
 Runs the frontend on http://localhost:3000/.
 Start the Backend
 
