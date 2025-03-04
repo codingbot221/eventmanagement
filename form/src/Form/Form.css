@@ -1,0 +1,159 @@
+
+.upload-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.upload-form {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.file-input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit-button,
+.preview-button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.preview-button:hover {
+  background-color: #0056b3;
+}
+
+.for{
+  /* background-color: #f4f4f4; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/gradient-glassmorphism-horizontal-banner_23-2149440108.jpg");
+}
+.for h6{
+  color: red;
+  font-size: 0.8rem;
+}
+.for label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  color:teal
+}
+
+
+
+
+
+/* Form.css */
+.upload-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/gradient-glassmorphism-horizontal-banner_23-2149440108.jpg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+  padding: 20px;
+  background-color: rgba(244, 244, 244, 0.9); /* Slight transparency for inner form background */
+  border-radius: 10px;
+}
+
+.input-label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.file-input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit-button,
+.preview-button {
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.submit-button:hover,
+.preview-button:hover {
+  background-color: #0056b3;
+}
+
+.upload-container h6 {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.upload-container label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  color: teal;
+}
+
+
+
+@media (max-width: 768px) {
+  .upload-container {
+      max-width: 100%;
+      padding: 10px;
+  }
+}

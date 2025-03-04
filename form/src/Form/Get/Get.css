@@ -1,0 +1,516 @@
+ /* .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+padding-left: 120px;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 1500px; 
+  margin: 10px;
+  border: 1.5px solid #d2d6fc;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:azure;
+
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px; 
+  justify-content: space-around; 
+}
+
+.img {
+  width: 1000px; 
+  height: auto;
+  margin-bottom: 10px; 
+}
+
+.project-details {
+  width: 2050px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+} 
+.he {
+  padding-left: 20%;
+}
+
+
+
+ */
+
+
+/* 
+ .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 120px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  margin: 10px;
+  border: 1.5px solid #d2d6fc;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  gap: 10px; 
+
+.img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.project-details {
+  width: 500px; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.he {
+  padding-left: 20%;
+} */
+
+
+/* .gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 120px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  margin: 10px;
+  border: 1.5px solid #d2d6fc;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  gap: 10px; 
+}
+
+.img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.project-details {
+  width: 500px; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.8rem; 
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1.2rem; 
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem; 
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.he {
+  padding-left: 20%;
+}
+
+@media (max-width: 1200px) {
+  .gallery-container {
+    padding-left: 50px;
+  }
+
+  .content {
+    width: 100%; 
+    flex-direction: column; 
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img {
+    width: 150px; 
+    height: 150px; 
+  }
+
+  .project-details {
+    width: 100%; 
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.6rem; 
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    padding-left: 20px;
+  }
+
+  .content {
+    width: 100%; 
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .project-details {
+    width: 100%; 
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem; 
+  }
+
+  button {
+    font-size: 1rem; 
+    padding: 8px 15px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    padding-left: 10px;
+  }
+
+  .content {
+    width: 100%;
+    flex-direction: column; 
+    padding: 5px;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .project-details {
+    width: 100%; 
+  }
+
+  h1 {
+    font-size: 1.2rem; 
+  }
+
+  p {
+    font-size: 0.9rem; 
+  }
+
+  button {
+    font-size: 1rem; 
+    padding: 6px 12px; 
+  }
+} */
+
+
+
+/* General Styles */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 120px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  margin: 10px;
+  border: 1.5px solid #d2d6fc;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1000px;
+  gap: 10px; /* Add spacing between images */
+}
+
+.img {
+  width: 150px; /* Adjusted width to 150px */
+  height: 50px; /* Adjusted height to 50px */
+  object-fit: cover; /* Ensure images fit nicely while preserving aspect ratio */
+  border-radius: 5px; /* Optional: add rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+}
+
+.project-details {
+  width: 500px; /* Adjusted width for better alignment */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.8rem; /* Increased font size for the title */
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* Increased font size for details */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem; /* Increased button text size */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.he {
+  padding-left: 20%;
+  width: 100%; /* Full width for each item by default */
+}
+
+.he-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between multiple .he elements */
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .gallery-container {
+    padding-left: 50px;
+  }
+
+  .content {
+    width: 100%; /* Full width on medium screens */
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .img-container {
+    width: 100%; /* Full width on medium screens */
+  }
+
+  .img {
+    width: 150px; /* Reduced image size */
+    height: 30px; /* Adjust height accordingly */
+  }
+
+  .project-details {
+    width: 100%; /* Full width for project details */
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.6rem; /* Reduce font size */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  button {
+    font-size: 1rem; /* Adjust button font size */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    padding-left: 20px;
+  }
+
+  .content {
+    width: 100%; /* Full width on small screens */
+    flex-direction: column; /* Stack content vertically */
+    padding: 10px;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .project-details {
+    width: 100%; /* Full width for project details */
+  }
+
+  h1 {
+    font-size: 1.4rem; /* Reduce font size */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  button {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    padding-left: 10px;
+  }
+
+  .content {
+    width: 100%;
+    flex-direction: column; /* Stack content vertically */
+    padding: 5px;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%; /* Full width images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .project-details {
+    width: 100%; /* Full width for project details */
+  }
+
+  h1 {
+    font-size: 1.2rem; /* Smaller title font size */
+  }
+
+  p {
+    font-size: 0.9rem; /* Smaller paragraph font size */
+  }
+
+  button {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 6px 12px; /* Adjust padding for smaller screens */
+  }
+}
